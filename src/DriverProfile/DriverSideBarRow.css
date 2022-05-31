@@ -1,0 +1,16 @@
+.driverSideBarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.driverSideBarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.driverSideBarRow > h4 {
+    margin-left: 20px;
+    font-weight: 600;
+}

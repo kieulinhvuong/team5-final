@@ -1,0 +1,71 @@
+.driverGeneralPost {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.driver_genPost_top {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 15px;
+}
+
+.driver_genPost_avatar {
+  margin-right: 10px;
+}
+
+.driver_genPost_topInfo > h3 {
+  font-size: medium;
+}
+
+.driver_genPost_topInfo > p {
+  font-size: small;
+  color: gray;
+}
+
+.driver_genPost_bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+}
+
+.driver_genPost_image > img {
+  width: 100%;
+}
+
+.driver_genPost_options {
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: gray;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.driver_genPost_option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  flex: 1;
+}
+
+.driver_genPost_option > p {
+  margin-left: 10px;
+}
+
+.driver_genPost_option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+}
+
+.driver_genPost_bottom > label {
+  color: black;
+}
+
+

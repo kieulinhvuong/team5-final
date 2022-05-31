@@ -1,0 +1,113 @@
+.Applog {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+
+}
+
+button.lbtn {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: radial-gradient(ellipse at left bottom,
+      rgb(74, 7, 132) 0%,
+      rgb(121, 15, 234) 66%,
+      rgba(36, 14, 123, 0.912) 100%);
+  cursor: pointer;
+}
+
+
+button.registerbtn {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: radial-gradient(ellipse at left bottom,
+      rgb(74, 7, 132) 0%,
+      rgb(121, 15, 234) 66%,
+      rgba(36, 14, 123, 0.912) 100%);
+  cursor: pointer;
+}
+
+.LoginForm {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  background: radial-gradient(ellipse at left bottom,
+      rgb(72, 1, 134) 0%,
+      rgb(101, 13, 164) 66%,
+      rgba(132, 73, 190, 0.912) 100%);
+  display: flex;
+}
+
+.LoginForm .LoginFormContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(ellipse at left bottom,
+      rgb(107, 4, 197) 0%,
+      rgb(241, 114, 17) 59%,
+      rgba(186, 55, 230, 0.9) 100%);
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.LoginForm .LoginFormContainer label {
+  color: white;
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.LoginForm .LoginFormContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.LoginForm .LoginFormContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.LoginForm .LoginFormContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+}
+
+.LoginForm .LoginFormContainer .btnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.LoginForm .LoginFormContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.LoginForm .LoginFormContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}

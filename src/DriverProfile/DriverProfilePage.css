@@ -1,0 +1,9 @@
+.driver_profile {
+  width: 60%;
+  background-color: #f1f2f5;
+  margin: auto;
+}
+
+.driver_profile_body {
+  justify-content: space-evenly;
+}

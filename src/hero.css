@@ -1,0 +1,79 @@
+.Core {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background-image: linear-gradient(to bottom right, #e80cb5ac, #f7ec276c, #f9a010ab);
+
+
+    display: flex;
+}
+
+
+button.loginbtn
+
+/*.LoginButton*/
+    {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: radial-gradient(circle at top right,
+            rgb(255, 232, 29) 0%,
+            rgb(255, 143, 7) 40%,
+            rgba(252, 23, 248, 0.9) 100%);
+    cursor: pointer;
+}
+
+
+
+.Terms label {
+    color: rgb(246, 246, 246);
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.KR-logo {
+    height: 25vh;
+    width: 25vh;
+    pointer-events: none;
+
+}
+
+
+.Terms {
+    padding: 70px;
+    margin: auto;
+    width: 100%;
+    max-width: 650px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(ellipse at top right,
+            rgb(118, 3, 167) 0%,
+            rgb(126, 12, 149) 59%,
+            rgba(167, 12, 194, 0.9) 100%);
+    box-shadow: 0 50px 70px -20px rgba(83, 5, 150, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+.addinfo {
+    color: yellow;
+}

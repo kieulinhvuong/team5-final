@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.AppUser > html {
+  
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+/*
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+*/
+.headerUser {
+  border-bottom: 10px solid #05336e;
+ /* background-color: #1d65ac; */
+}
+img.userHome  {
+  width: auto;
+  max-height: 100%;
+}
+
+.navbarUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex;
+  padding: 1rem 1rem;
+  max-height: 100%;
+  max-width: 100%;
+  background-color:#ffb6e1;
+}
+img.userHome {
+  max-width: 120%;
+  max-height: 120%;
+}
+.logopicuserhome {
+  height: 50px;
+  width: 50px;
+}
+
+
+.nav-menu-home {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  
+}
+
+.nav-item-home {
+  list-style: none;
+  margin-left: 1rem;
+  text-align: center;
+
+  
+}
+
+.nav-link-home {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #190060;
+  text-align: center;
+}
+
+
+button.button-nav-link {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #190060;
+  text-align: center;
+  background-color: #ffb6e1;
+}
+.button-nav-link:hover{
+  background-color: #84f5ff;
+  color:#190060;
+}
+
+.nav-item-home:hover{
+  background-color: #84f5ff;
+  color:#d20606;
+}
+/*
+.nav-link:hover {
+  color: #ffffff; 
+  background-color: #eca310; 
+}
+*/
+.columnHome {
+  float: left;
+  width: 100%;
+  background-color: #c8edfd;
+  color:#6033a8;
+  width: 100%;
+  border: .2rem solid #d20606;
+  text-align: center;
+}
+
+h1.homeColumn {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+  background-color: solid #d20606;
+  color: rgb(0, 0, 0);
+  }
+  .rowHome{
+    background-color:rgb(255, 255, 255);
+  }
+.rowHome:after {
+  content: "";
+  background-color: #dde4ec;
+  display: table;
+  clear: both;
+  width: .5rem;
+}
+.motto{
+
+  background-color:#ff74c5;
+  color: #6033a8;
+  font-weight: bold;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+    
+}
+h1.mottoHeader{
+  position: relative;  
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+
+  position: absolute;
+  margin: 0;
+  z-index: 2;
+
+}
+
+table.homeTable {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 7px solid #7f2e91;
+  
+}
+table.homeTable td, table.homeTable th {
+  padding: 3px 2px;
+  background-color: #f3c1ff;
+  font-size: larger;
+  border-right: solid 3px rgb(0, 0, 0); 
+  border-left: solid 3px rgb(0, 0, 0);
+
+}
+table.homeTable tbody td {
+  font-size: 1.5rem;
+  color: #000000;
+  background-color:#f3c1ff;
+  border-right: solid 3px rgb(0, 0, 0); 
+  border-left: solid 3px rgb(0, 0, 0);
+}
+
+table.homeTable thead th {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+}

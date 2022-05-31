@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.AppUserContact > html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+/*
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+*/
+.headerUser {
+  border-bottom: 10px solid #05336e;
+ /* background-color: #1d65ac; */
+}
+img.userContactLogo {
+  width: auto;
+  max-height: 100%;
+}
+
+.navbarUserContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex;
+  padding: 1rem 1rem;
+  max-height: 100%;
+  max-width: 100%;
+  background-color:#ffb6e1;
+}
+.logopic {
+  height: 50px;
+  width: 50px;
+}
+
+.bar {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6e88d8;
+}
+
+.nav-menu-contact {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  
+}
+
+.nav-item-contact {
+  list-style: none;
+  margin-left: 1rem;
+  text-align: center;
+
+  
+}
+
+.nav-link-contact {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #190060;
+  text-align: center;
+}
+.nav-item-contact:hover{
+  background-color: #84f5ff;
+  color:#d20606;
+}
+/*
+.nav-link:hover {
+  color: #ffffff; 
+  background-color: #eca310; 
+}
+*/
+.nav-logo-contact {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #e0364a;
+}
+
+.name-item-contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  .name-item-contact input{
+  width: calc(50% - 20px);
+  }

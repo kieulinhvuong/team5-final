@@ -1,0 +1,74 @@
+.driver_header {
+  padding: 5px 20px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #4f3276;
+  z-index: 100;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.driver_header_left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.driver_header_left > img {
+  height: 60px;
+}
+
+.driver_header_avatar {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.driver_header_avatar > h3 {
+  margin-left: 5px;
+  color: white;
+}
+
+.driver_header_center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 13px;
+  color: white;
+}
+
+.driver_searchBar {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 10px;
+  border-radius: 999px;
+  width: 40%;
+  margin: auto;
+  top: 18%;
+  position: absolute;
+}
+
+.driver_searchBar > input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+}
+
+.driver_header_right {
+  display: flex;
+}
+
+.driver_header_right_option {
+  color: white;
+}
+
+.driver_header_right_option:hover {
+  border-radius: 80%;
+  background-color: #7e38b7;
+  filter: brightness(1.2);
+}
+
+.headerLogout_btn {
+  background-color: #4f3276;
+  padding: 5px;
+}

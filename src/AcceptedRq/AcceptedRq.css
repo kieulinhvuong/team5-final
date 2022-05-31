@@ -1,0 +1,13 @@
+.accepted {
+    width: 60%;
+    background-color: #f1f2f5;
+    margin: auto;
+  }
+  
+.accepted_body {
+  justify-content: space-evenly;
+}
+
+.driver_feed > h2 {
+  width: 50%;
+}

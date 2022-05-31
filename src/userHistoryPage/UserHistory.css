@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Appuserrequest > html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+/*
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+*/
+.headerUser {
+  border-bottom: 10px solid #05336e;
+  /* background-color: #1d65ac; */
+}
+img.userHome {
+  width: auto;
+  max-height: 100%;
+}
+
+.navbarUserContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex;
+  padding: 1rem 1rem;
+  max-height: 100%;
+  max-width: 100%;
+  background-color: #ffb6e1;
+}
+img.userContactLogo {
+  max-width: 120%;
+  max-height: 120%;
+}
+.logopic {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-menu-contact {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+}
+
+.nav-item-contact {
+  list-style: none;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.nav-link-contact {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #190060;
+  text-align: center;
+}
+.nav-item-contact:hover {
+  background-color: #84f5ff;
+  color: #d20606;
+}
+h1.histHeader {
+  text-align: center;
+  
+}
+button.histBut{
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #603bbb;
+  cursor: pointer;
+  text-align: center;
+  align-self: stretch;
+  background-color: #05336e;
+
+  
+  
+}
+.histList{
+  color: black;
+  font-size: large;
+  
+  background-color: #ffdaf0;
+}
